@@ -5,10 +5,32 @@ import Todos from "./MyComponents/Todos";
 import Footer from "./MyComponents/Footer";
 
 
-function App() {
+function App() 
+{
+  let todos = [
+    {
+      sno: 1,
+      title: "Title 1",
+      desc: "description 1"
+    },
+    {
+      sno: 1,
+      title: "Title 1",
+      desc: "description 1"
+    },
+    {
+      sno: 1,
+      title: "Title 1",
+      desc: "description 1"
+    }
+  ]
+
+
+
+
   return (
   <>
-    <Header/>  
+    <Header searchBar = {false}  />  
     <Todos/>
     <Footer/>
   </>
